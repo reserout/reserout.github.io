@@ -1,0 +1,64 @@
+/* Общий стиль для всего сайта */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стиль для заголовка */
+h1 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+/* Стиль для подзаголовков */
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Стиль для контактной информации */
+.contact-info {
+    margin-bottom: 20px;
+}
+
+/* Стиль для списка скиллов */
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+/* Стиль для каждого скилла в списке */
+.skills li {
+    margin-bottom: 10px;
+}
+
+/* Стиль для ключевых достижений */
+.achievements {
+    margin-bottom: 20px;
+}
+
+/* Стиль для каждого достижения в списке */
+.achievements li {
+    margin-bottom: 10px;
+}
+
+/* Стиль для ссылок */
+a {
+    color: #337ab7;
+}
+
+/* Стиль для кнопки "Наверх" */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+.back-to-top.show {
+    display: block;
+}
