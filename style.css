@@ -1,68 +1,49 @@
-/* Общий стиль для всего сайта */
+/* устанавливаем отступы и цвет фона для всей страницы */
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    background-color: #f2f2f2;
 }
 
-/* Стиль для заголовка */
+/* устанавливаем максимальную ширину страницы и центрируем ее */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* стили для заголовка */
 h1 {
     font-size: 32px;
-    margin: 20px 0;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-/* Стиль для подзаголовков */
-h2 {
-    font-size: 24px;
-    margin: 10px 0;
+/* стили для текста */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
 
-/* Стиль для контактной информации */
+/* стили для контактной информации */
 .contact-info {
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
-/* Стиль для списка скиллов */
-.skills {
-    list-style: none;
-    padding: 0;
+.contact-info p {
+    margin-right: 20px;
 }
 
-/* Стиль для каждого скилла в списке */
-.skills li {
-    margin-bottom: 10px;
-}
-
-/* Стиль для ключевых достижений */
-.achievements {
-    margin-bottom: 20px;
-}
-
-/* Стиль для каждого достижения в списке */
-.achievements li {
-    margin-bottom: 10px;
-}
-
-/* Стиль для ссылок */
+/* стили для ссылок */
 a {
-    color: #337ab7;
+    color: #333;
+    text-decoration: none;
 }
 
-/* Стиль для кнопки "Наверх" */
-.back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    cursor: pointer;
-}
-
-.back-to-top.show {
-    display: block;
+a:hover {
+    color: #666;
 }
