@@ -1,0 +1,3 @@
+pip install colorama для цветных шрифтов
+pip install numexpr для калькулятора
+pip install aiogram для ботов в телеге
