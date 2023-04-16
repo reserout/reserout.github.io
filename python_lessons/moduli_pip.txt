@@ -1,4 +1,4 @@
-pip install colorama для цветных шрифтов
- для калькулятора
+pip install colorama для цветных шрифтов для калькулятора
 pip install aiogram для ботов в телеге
-pip install pyinstaller (pyinstaller main.py -F)pip install numexpr
+pip install pyinstaller (pyinstaller main.py -F)
+pip install numexpr
